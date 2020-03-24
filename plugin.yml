@@ -1,0 +1,10 @@
+name: NoCmd
+main: NoCmd\NoCmd
+api: 3.0.0
+version: 1.0.0
+author: narapon
+
+commands:
+  nocmd:
+    usage: "/nocmd <add|remove|list>"
+    description: コマンド使用制限
