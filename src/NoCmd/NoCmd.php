@@ -30,7 +30,7 @@ class NoCmd extends PluginBase implements Listener
                 }
                 switch ($args[0]) {
                     case "add":
-                        if (!$sender->isop()) {
+                        if (!$sender->isOp()) {
                             $sender->sendmessage("§cこのコマンドを実行する権限がありません");
                             break;
                         }
